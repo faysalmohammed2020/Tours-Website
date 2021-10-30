@@ -11,6 +11,7 @@ import About from './Components/About/About';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import DisplayDetails from './Components/DisplayDetails/DisplayDetails';
+import AddService from './Components/AddService/AddService';
 
 
 
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route exact path = "/Home">
          <Home></Home>
+        </Route>
+        <Route exact path = "/addService">
+         <AddService></AddService>
         </Route>
         <PrivateRoute path = "/About">
          <About></About>

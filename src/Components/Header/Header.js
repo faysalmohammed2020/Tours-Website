@@ -1,8 +1,9 @@
 import React from 'react';
 import'./Header.css';
 import logo from '../../images/logo.png'
-import {  NavLink } from 'react-router-dom';
+import {   NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+
 
 
 const Header = () => {
@@ -65,6 +66,8 @@ const Header = () => {
        borderRadius:'10px'
        }}
         to="/Register" onClick={logOut}>LogOut</NavLink>
+
+        
         
         
         : <NavLink activeStyle={{
@@ -74,10 +77,11 @@ const Header = () => {
        padding:'10px',
        borderRadius:'10px'
        }}
-        to="/Register">Register/Login</NavLink> }
-           </div>
-        </div>
-        </div>
+        to="/Register">Register/Login</NavLink> 
+        }
+      </div>
+    </div>
+</div>
     );
 };
 
