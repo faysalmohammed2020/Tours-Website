@@ -1,5 +1,5 @@
-#Inclinic Boston Website is a Hospital Website.
-Webite Live Link : https://inclinic-hoston-website.netlify.app/
+#GoTravel Website is a Tour Website.
+Webite Live Link :
 This Site is Created by React.
 Using Technology :
 1.React Hooks.
@@ -12,6 +12,6 @@ Using Technology :
 
 What You can Do by this App:
 1.You Can Register by Email And Password. or Login By Using Your Google Account.
-2.You Can Show Details About Doctor By Click the Appointment now Button.
+2.You Can Show Details About tour packages By Click the book now Button.
 3.Without Login You Can't Access on About and Contact pages.
 4.You can create account by Email and password.
