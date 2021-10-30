@@ -1,0 +1,25 @@
+.Header-nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aquamarine;
+    
+}
+.Displayname{
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.userimg{
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+}

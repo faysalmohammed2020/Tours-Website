@@ -1,0 +1,25 @@
+#formBasicEmail{
+    width: 100%;
+    
+}
+#formBasicPassword{
+    width: 100%;
+    
+}
+.register-img img{
+    width: 450px;
+}
+.register-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 210px;
+    background-color: #FF8E87;
+    
+}
+.register-form{
+    padding-right: 455px;
+padding-top: 110px;
+}
+#login-btn-google{
+    margin-left: 0px;
+}

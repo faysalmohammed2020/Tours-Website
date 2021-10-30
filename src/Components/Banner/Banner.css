@@ -1,0 +1,22 @@
+.banner-container{
+    background-color: #FEFEFF;
+    
+    padding: 10px;
+    margin: 50px;
+}
+
+
+.banner{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; 
+    
+}
+.banner-content{
+    margin-left: 64px;
+    margin-top: 140px;
+}
+.banner-img img{
+    width: 650px;
+}
+

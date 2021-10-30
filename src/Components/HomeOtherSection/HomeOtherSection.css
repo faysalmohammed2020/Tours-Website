@@ -1,0 +1,102 @@
+/* .Homeabout-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    margin-bottom: 150px;
+    
+    
+    
+}
+.Homeabout-content{
+    padding-top:  105px;
+}
+.Homeabout-img img{
+    width: 700px;
+}
+.homeothersection-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.homeothersection-img img{
+    width: 600px;
+}
+.homeothersection-content{
+    padding-top:  105px;
+    margin-left: 35px;
+    
+} */
+.TourType-container{
+    
+    margin-bottom: 120px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+} 
+.Tour-h1{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.TourType-container h3{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+.Card-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    
+    
+}
+.card-one{
+    border: 2px solid aqua;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.card-one:hover{
+    border: 2px solid aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.card-two{
+    border: 2px solid aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-two:hover{
+    border: 2px solid aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-three{
+    border: 2px solid aqua;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-three:hover{
+    border: 2px solid aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+.Tour-subscribe{
+  background-image: url(../../images/subscribe-bg.jpg);
+  padding: 80px;
+  
+}
+.Tour-subscribe-h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.Tour-subscribe-p{
+    text-align: center;
+    color: white;
+}
+#Subscribe-btn{
+    margin-left: 580px;
+}

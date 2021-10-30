@@ -1,0 +1,28 @@
+#formBasicEmail{
+    width: 100%;
+    
+}
+#exampleForm.ControlTextarea1{
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.contact-img img{
+    width: 450px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 210px;
+    background-color: #E8EEFE;
+    
+}
+.contact-form {
+padding-right: 455px;
+padding-top: 150px;
+
+}
+#Submit-btn{
+    margin-left: 0px;
+    margin-top: 5px;
+}

@@ -1,0 +1,32 @@
+ #formBasicEmail{
+    width: 100%;
+    
+}
+#formBasicPassword{
+    width: 100%;
+    
+}
+/* #Submit-btn{
+    margin-left: 540px;
+} */
+/* .login-form{
+    margin-top: 200px;
+}  */
+
+.login-img img{
+    width: 450px;
+}
+.login-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 210px;
+    background-color: #E8EEFE;
+    
+}
+.login-form {
+    padding-right: 455px;
+padding-top: 210px;
+}
+#login-btn-google{
+    margin-left: 10px;
+}
