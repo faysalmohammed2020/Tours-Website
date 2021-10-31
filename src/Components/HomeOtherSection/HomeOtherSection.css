@@ -1,31 +1,4 @@
-/* .Homeabout-container{
-    display: flex;
-    justify-content: space-between;
-    background-color: #FAFAFA;
-    margin-bottom: 150px;
-    
-    
-    
-}
-.Homeabout-content{
-    padding-top:  105px;
-}
-.Homeabout-img img{
-    width: 700px;
-}
-.homeothersection-container{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 150px;
-}
-.homeothersection-img img{
-    width: 600px;
-}
-.homeothersection-content{
-    padding-top:  105px;
-    margin-left: 35px;
-    
-} */
+
 .TourType-container{
     
     margin-bottom: 120px;
@@ -99,4 +72,12 @@
 }
 #Subscribe-btn{
     margin-left: 580px;
+}
+
+
+@media only screen and (max-width:688px)  {
+    .Card-images{
+    grid-template-columns: repeat(1,1fr);
+}
+
 }

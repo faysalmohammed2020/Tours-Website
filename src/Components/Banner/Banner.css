@@ -19,4 +19,15 @@
 .banner-img img{
     width: 650px;
 }
-
+@media only screen and (max-width:688px)  {
+    .banner{
+        display: flex;
+        flex-direction: column;
+}
+}
+@media only screen and (max-width:992px)  {
+    .banner{
+        display: flex;
+        flex-direction: column;
+}
+}

@@ -1,5 +1,6 @@
 .about-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     background-color: #FAFAFA;
     margin-bottom: 150px;
@@ -9,9 +10,12 @@
 }
 .about-content{
     padding-top:  105px;
+    text-align: center;
 }
 .about-img img{
     width: 700px;
+    margin-left: 350px;
+    margin-top: 150px;
 }
 @media screen  and (max-width : 560px )  {
     .about-container{

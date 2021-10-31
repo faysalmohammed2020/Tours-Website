@@ -9,17 +9,21 @@
 }
 .contact-img img{
     width: 450px;
+    margin-left: 20px;
 }
 .contact-container{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin-left: 210px;
-    background-color: #E8EEFE;
+    margin-left: 500px;
+    margin-bottom: 150px;
+    margin-top: 0px;
+    
     
 }
 .contact-form {
-padding-right: 455px;
-padding-top: 150px;
+    padding-right: 441px;
+    padding-top: 50px;
 
 }
 #Submit-btn{

@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../../images/aboutus.jpg';
+import img1 from '../../images/about.jpg';
 import './About.css'
 
 const About = () => {
@@ -10,10 +10,10 @@ const About = () => {
             <img src ={img1} alt=""/>
             </div>
             <div className ="about-content">
-             <h3 style ={{color:'#F04949'}}>About The Doctors</h3>
-             <h1 style ={{fontWeight:'600'}}>Get Best and Amazing Experice With Our Professional Doctors</h1>
-             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-             <button className="btn btn-danger" ><a href="/Register "style={{color:"White",textDecoration:"none"}}>Register Now</a></button>
+             <h3 style ={{color:'#00BDBB'}}>About The Sb Travel</h3>
+             <h1 style ={{fontWeight:'600'}}>Travel marketers are not just selling trips abroad</h1>
+             <p>Travel marketers are not just selling trips abroad – they’re selling dreams, adventure, and memories. But travel trends change rapidly, and this can prove tricky when it comes to marketing your professional travel or tour operation service. Managing content, handling inquiries, social media and customer relations will all begin to burn a hole in your pocket (and take up your time) if you aren’t ultimately getting the results you want. Marketing as a tour operator takes careful planning and requires a solid strategy to ensure high ROI, healthy conversion rates, and competitive search rankings. If you’re strapped for ideas or looking for inspiration for your content marketing strategy, here are five top ideas for producing killer content that people will love.</p>
+             
         </div>
         </div>
     </div>

@@ -1,13 +1,15 @@
 import React from 'react';
 import'./Header.css';
 import logo from '../../images/logo.png'
-import {   NavLink } from 'react-router-dom';
+import {    NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+
 
 
 
 const Header = () => {
     const {user , logOut} = useAuth();
+    
     
     return (
         <div>
@@ -40,36 +42,53 @@ const Header = () => {
        padding:'10px',
        borderRadius:'10px'
        }}
-        to="/Contact">Contact</NavLink>
-            
-            {/* <NavLink activeStyle={{
-       fontWeight: "bold",
-       color: "white",
-       background: '#FF284F',
-       padding:'10px',
-       borderRadius:'10px'
-       }}
-        to="/Register">Register/Login</NavLink> */}
+       to="/Contact">Contact</NavLink>
+
+       {user.email?<NavLink activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            background: 'aqua',
+            padding:'10px',
+            borderRadius:'10px'
+            }}
+             to="/MyOrder">My Order</NavLink> :"" }
+       {user.email?<NavLink activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            background: 'aqua',
+            padding:'10px',
+            borderRadius:'10px'
+            }}
+             to="/ManageOrder">Manage All Order</NavLink> :"" }
+       {user.email?<NavLink activeStyle={{
+            fontWeight: "bold",
+            color: "white",
+            background: 'aqua',
+            padding:'10px',
+            borderRadius:'10px'
+            }}
+             to="/addService">Add Service</NavLink> :"" }
+        
         
         <span className="Displayname">{user.displayName}</span>
         <img src={user.photoURL} className="userimg"/>
        
-
-
-        {user.email ?
         
-        <NavLink activeStyle={{
+
+        
+
+         {user.email ?
+            
+        
+        
+         <NavLink activeStyle={{
        fontWeight: "bold",
        color: "white",
        background: 'aqua',
        padding:'10px',
        borderRadius:'10px'
        }}
-        to="/Register" onClick={logOut}>LogOut</NavLink>
-
-        
-        
-        
+        to="/Register" onClick={logOut}>LogOut</NavLink>  
         : <NavLink activeStyle={{
        fontWeight: "bold",
        color: "white",
@@ -77,11 +96,12 @@ const Header = () => {
        padding:'10px',
        borderRadius:'10px'
        }}
-        to="/Register">Register/Login</NavLink> 
-        }
-      </div>
+        to="/Register">Login</NavLink> 
+        } 
+      </div> 
     </div>
 </div>
+
     );
 };
 

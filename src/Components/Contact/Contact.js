@@ -1,9 +1,10 @@
 import React from 'react';
-import contactimg from '../../images/contact.jpg';
+import contactimg from '../../images/about.jpg';
 import './Contact.css'
 import { Button, Form } from 'react-bootstrap';
-
+import useAuth from '../../hooks/useAuth';
 const Contact = () => {
+  const{user} =useAuth();
     return (
         <div>
             <div className="contact-container">
@@ -14,7 +15,7 @@ const Contact = () => {
     <h1 className="text-primary">Contact Us</h1>
     <Form >
       <Form.Group className="mb-3" controlId="formBasicEmail">
-       <Form.Control type="email" placeholder="Enter email" />
+       <Form.Control type="email"  defaultValue={user.email}/>
         </Form.Group>
     
     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1"/>

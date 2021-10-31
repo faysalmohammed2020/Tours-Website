@@ -10,8 +10,10 @@ import Notfound from './Components/Notfound/Notfound';
 import About from './Components/About/About';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
-import DisplayDetails from './Components/DisplayDetails/DisplayDetails';
 import AddService from './Components/AddService/AddService';
+import MyOrder from './Components/MyOrder/MyOrder';
+import Shipping from './Components/Shipping/Shipping';
+import ManageOrder from './Components/ManageOrder/ManageOrder';
 
 
 
@@ -35,11 +37,18 @@ function App() {
         <PrivateRoute path = "/About">
          <About></About>
         </PrivateRoute>
-        <PrivateRoute path = "/DisplayDetails/:detailsid">
-          <DisplayDetails></DisplayDetails>
-          </PrivateRoute>
+        <PrivateRoute path = "/MyOrder">
+         <MyOrder></MyOrder>
+        </PrivateRoute>
+        <PrivateRoute path = "/ManageOrder">
+         <ManageOrder></ManageOrder>
+        </PrivateRoute>
+        
         <PrivateRoute exact path ="/Contact"> 
         <Contact></Contact>
+        </PrivateRoute>
+        <PrivateRoute exact path ="/Shipping"> 
+        <Shipping></Shipping>
         </PrivateRoute>
         <Route exact path ="/Register"> 
         <Register></Register>
