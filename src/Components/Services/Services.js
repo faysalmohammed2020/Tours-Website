@@ -12,7 +12,7 @@ const Services = () => {
     
     const[services,setServices] =useState([]);
        useEffect(()=>
-       fetch('http://localhost:5000/services')
+       fetch('https://grim-broomstick-26209.herokuapp.com/services')
        .then(res => res.json())
        .then(data => setServices(data))
        ,[]);
@@ -24,7 +24,7 @@ const Services = () => {
           bookData.Status = "Pending";
           console.log(bookData)
           
-          fetch('http://localhost:5000/addOrders',{
+          fetch('https://grim-broomstick-26209.herokuapp.com/addOrders',{
             method:'post',
             headers:{
               'content-type':'application/json'

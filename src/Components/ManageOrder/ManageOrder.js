@@ -6,14 +6,14 @@ const ManageOrder = () => {
     const{user}= useAuth()
     const[allOrders,setAllOrders]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/myOrders')
+        fetch('https://grim-broomstick-26209.herokuapp.com/myOrders')
         .then(res => res.json())
         .then(data => setAllOrders(data))
     },[])
     const handleDelete = (id) =>{
         const proceed = window.confirm("Are you Want To Delete Order?")
         if(proceed){
-        const url =`http://localhost:5000/myOrders/${id}`;
+        const url =`https://grim-broomstick-26209.herokuapp.com/myOrders/${id}`;
         fetch(url,{
             method :'DELETE',
         })
