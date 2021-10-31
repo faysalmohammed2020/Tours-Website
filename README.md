@@ -1,5 +1,5 @@
 #GoTravel Website is a Tour Website.
-Webite Live Link :
+Webite Live Link : https://go-travel-tourism-2021.netlify.app/
 This Site is Created by React.
 Using Technology :
 1.React Hooks.
@@ -11,7 +11,7 @@ Using Technology :
 7.UseParams Hooks.
 
 What You can Do by this App:
-1.You Can Register by Email And Password. or Login By Using Your Google Account.
-2.You Can Show Details About tour packages By Click the book now Button.
-3.Without Login You Can't Access on About and Contact pages.
-4.You can create account by Email and password.
+1.You Can Login By Using Your Google Account.
+2.You Can order by  book now Button.
+3.Without Login You Can't Access on About and Contact pages.or you can't see manage all orders/myorders without login.
+4.You can delete or add service by using this site.
